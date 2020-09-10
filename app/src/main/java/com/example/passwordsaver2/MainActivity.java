@@ -37,7 +37,7 @@ ListView credentialListView;
               Toast.makeText(this,"Selected Item +"+DatasCollection.getDATA(id).getName(),Toast.LENGTH_SHORT).show();
           }catch (Exception ex)
           {
-            ex.printStackTrace();
+           Toast.makeText(this,"Exception :"+ex.getMessage(),Toast.LENGTH_LONG );
           }
 
       });
