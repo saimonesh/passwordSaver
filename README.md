@@ -1,2 +1,2 @@
 # passwordSaver
-Android Application to store your application passwords
+Android Application to store your passwords
